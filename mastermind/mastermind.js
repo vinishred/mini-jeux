@@ -17,7 +17,7 @@ const allSelectDiv = document.getElementById("allSelect");
 let checkAudio = new Audio("assets/audio/check.mp3");
 let winAudio = new Audio("assets/audio/applause.mp3");
 let backAudio = new Audio("assets/audio/Two Moons.mp3");
-backAudio.volume = 0.1;
+backAudio.volume = 0.5;
 
 function getAleaColor() {
   let aleaIndex = Utils.getRandomInt(4);
