@@ -1,0 +1,130 @@
+body {
+  background: linear-gradient(#cfe817, #0ae227, orange);
+  font-family: "Caprasimo", cursive;
+  text-align: center;
+}
+
+.title {
+  color: rgb(23, 30, 222);
+}
+
+.header__image {
+  position: absolute;
+  width: 100px;
+  top: 1rem;
+  right: 1rem;
+}
+
+.paragraph {
+  color: black;
+}
+
+.button {
+  border-radius: 4px;
+  height: 2rem;
+  width: auto;
+  &.button__green {
+    background-color: #2e871a;
+    color: white;
+    transition: 1s;
+
+    &:hover {
+      box-shadow: inset 0rem 5rem #33e70a;
+      color: black;
+    }
+  }
+  &.button__yellow {
+    background-color: rgb(223, 12, 8);
+    color: white;
+    transition: 1s;
+    &:hover {
+      box-shadow: inset 0rem 5rem rgb(255, 235, 13);
+      color: black;
+    }
+  }
+}
+.game {
+  align-items: center;
+  display: flex;
+  height: 30rem;
+  justify-content: center;
+}
+
+main {
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  height: 28rem;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+
+  &.mainStart {
+    height: 33rem;
+  }
+
+  &.mainEnd {
+    height: 30rem;
+  }
+}
+
+table {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+#wordToFindDiv {
+  padding: 1rem;
+  text-align: center;
+}
+#keyBoard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#keyBoard .letterKeyBoard {
+  background-color: rgb(10, 232, 206);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  margin: 2px;
+  padding: 14px;
+}
+
+#confetti {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+button {
+  background-color: magenta;
+  color: white;
+}
+
+.mistakes {
+  color: red;
+  background-color: yellow;
+  border-radius: 11px;
+  height: 2rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  width: 21rem;
+}
+
+.letterFound {
+  background-color: whitesmoke;
+  color: green;
+  font-size: 20px;
+}
+
+.endGame {
+  color: rgb(182, 195, 80, 1);
+  font-size: 16px;
+}

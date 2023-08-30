@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="assets/css/pendu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title-div">
+        <h1 class="title">Mini-Jeux</h1>
+        <img
+          src="../assets/img/game.jpg"
+          alt="illustration de jeu"
+          class="header__image"
+        />
+      </div>
+      <button
+        id="backButton"
+        class="button button__yellow"
+        onclick="window.location.href='http://localhost:3000/index.html';"
+      >
+        Retour à l'accueil
+      </button>
+      <p class="paragraph">
+        Cette série de mini-jeux a été développée en HTML/SCSS/Javascript. Son
+        seul but est de divertir, donc amusez-vous bien !
+      </p>
+    </header>
+    <section class="game">
+      <div class="pendu__font">
+        <img src="assets/img/pendu.png" alt="dessin pendu" />
+      </div>
+      <main id="main" class="main">
+        <div class="pendu__font">
+          <h1>Le jeu du Pendu</h1>
+          <h2>Devinez le mot choisi sans faire trop d'erreurs</h2>
+          <button id="beginGame">C'est parti !</button>
+          <div id="wordToFindDiv"></div>
+          <div id="keyBoard"></div>
+          <div id="letterFoundCounter" class="letterFound"></div>
+          <div id="mistakesCounter"></div>
+          <div id="endGame" class="endGame">
+            <h2>PERDU<br />c'est pas mauvais c'est Très mauvais !!</h2>
+            <img src="assets/img/looser.jpg" alt="lysa simpson" />
+          </div>
+        </div>
+      </main>
+      <div class="pendu__font">
+        <img src="assets/img/pendu.png" alt="dessin pendu" />
+      </div>
+    </section>
+    <script type="module" src="pendu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
