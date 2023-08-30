@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
+}
+.header {
+  gap: 10px;
+  justify-content: center;
+}
+.title-div {
+  align-items: center;
+  gap: 19rem;
+}
+.title {
+  color: rgb(23, 30, 222);
+}
+
+.header__image {
+  position: absolute;
+  width: 100px;
+  top: 1rem;
+  right: 1rem;
+}
+
+.paragraph {
+  color: black;
+}
+
+.button {
+  border-radius: 4px;
+  height: 2rem;
+  width: auto;
+  &.button__green {
+    background-color: #2e871a;
+    &:hover {
+      box-shadow: inset 0rem 5rem #33e70a;
+    }
+  }
+  &.button__yellow {
+    background-color: rgb(178, 52, 24);
+    &:hover {
+      box-shadow: inset 0rem 5rem rgb(255, 58, 13);
+    }
+  }
+}
