@@ -1,0 +1,450 @@
+body {
+  background: linear-gradient(rgb(227, 18, 49), yellow);
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.title {
+  color: rgb(136, 219, 11);
+  font-size: 40px;
+}
+
+.header__image {
+  position: absolute;
+  width: 100px;
+  top: 1rem;
+  right: 1rem;
+}
+
+.paragraph {
+  color: black;
+  font-size: 20px;
+}
+
+.button {
+  border-radius: 4px;
+  height: 2rem;
+  width: auto;
+}
+.button.button__green {
+  background-color: #2e871a;
+  color: white;
+  transition: 1s;
+}
+.button.button__green:hover {
+  box-shadow: inset 0rem 5rem #33e70a;
+  color: black;
+}
+.button.button__yellow {
+  background-color: rgb(223, 12, 8);
+  color: white;
+  transition: 1s;
+}
+.button.button__yellow:hover {
+  box-shadow: inset 0rem 5rem rgb(255, 235, 13);
+  color: black;
+}
+
+main {
+  margin: 4rem auto;
+}
+
+.startButton {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin: 1rem auto;
+  padding: 1rem;
+  transition: all 1s ease-in-out;
+  width: 200px;
+}
+.startButton:hover {
+  color: black;
+  background-color: lightgrey;
+  box-shadow: 10px 10px 10px black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cardsPlateau {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.perso {
+  background: url(/PerfectGame/assets/img/sprites.png);
+  border-radius: 5px;
+  height: 70px;
+  margin: 1rem;
+  width: 70px;
+}
+
+.elementToFind {
+  height: 70px;
+  margin: 1rem auto;
+  width: 70px;
+}
+.elementToFind.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+
+.perso.perso0 {
+  background-position: 0px 0px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso1 {
+  background-position: 83.4px 76px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso2 {
+  background-position: 166.8px 76px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso3 {
+  background-position: 250.2px 76px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso4 {
+  background-position: 333.6px 76px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso5 {
+  background-position: 417px 76px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso6 {
+  background-position: 500.4px 76px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso7 {
+  background-position: 583.8px 152px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso8 {
+  background-position: 667.2px 152px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso9 {
+  background-position: 750.6px 152px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso10 {
+  background-position: 834px 152px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso11 {
+  background-position: 917.4px 152px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso12 {
+  background-position: 1000.8px 152px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso13 {
+  background-position: 1084.2px 228px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso14 {
+  background-position: 1167.6px 228px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso15 {
+  background-position: 1251px 228px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso16 {
+  background-position: 1334.4px 228px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso17 {
+  background-position: 1417.8px 228px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso18 {
+  background-position: 1501.2px 228px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso19 {
+  background-position: 1584.6px 304px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso20 {
+  background-position: 1668px 304px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso21 {
+  background-position: 1751.4px 304px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso22 {
+  background-position: 1834.8px 304px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso23 {
+  background-position: 1918.2px 304px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.perso.perso24 {
+  background-position: 2001.6px 304px;
+}
+.perso.reverseCard {
+  background: url(/PerfectGame/assets/img/cartemini.png);
+}
+.perso.reverseCard:hover {
+  border: 2px solid yellow;
+}
+.perso.cardFind {
+  margin: 1rem auto;
+}
+
+.reverseCount {
+  background-color: purple;
+  border-radius: 100%;
+  color: white;
+  font-weight: bold;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 50px;
+}
+
+.replayButton {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  transition: all 0.5s ease-in-out;
+  width: 200px;
+}
+.replayButton:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px whitesmoke;
+}
+
+#confetti {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}/*# sourceMappingURL=PerfectGame.css.map */
