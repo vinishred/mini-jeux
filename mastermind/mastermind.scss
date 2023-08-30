@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(black, white);
+  color: black;
+  text-align: center;
+  font-family: "Gluten", cursive;
+}
+
+.title {
+  color: rgb(23, 30, 222);
+  font-size: 2.5rem;
+}
+
+.header__image {
+  position: absolute;
+  width: 100px;
+  top: 1rem;
+  right: 1rem;
+}
+
+.paragraph {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.button {
+  border-radius: 4px;
+  height: 2rem;
+  width: auto;
+  &.button__green {
+    background-color: #2e871a;
+    color: white;
+    transition: 1s;
+
+    &:hover {
+      box-shadow: inset 0rem 5rem #33e70a;
+      color: black;
+    }
+  }
+  &.button__yellow {
+    background-color: rgb(223, 12, 8);
+    color: white;
+    transition: 1s;
+    &:hover {
+      box-shadow: inset 0rem 5rem rgb(255, 235, 13);
+      color: black;
+    }
+  }
+}
+main {
+  padding: 2rem;
+}
+
+.game_title {
+  border: 4px solid purple;
+  border-radius: 10px;
+  color: yellow;
+  margin: auto;
+  width: 14rem;
+}
+
+.coverImage {
+  margin: 2rem auto;
+}
+.allSelect {
+  flex-wrap: wrap;
+}
+
+.lineSelectDiv {
+  flex-basis: 60%;
+}
+
+select {
+  border-radius: 100%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.correction {
+  flex-basis: 40%;
+  text-align: left;
+}

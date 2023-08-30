@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="assets/css/mastermind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="title">Mini-Jeux</h1>
+        <img
+          src="../assets/img/game.jpg"
+          alt="illustration de jeu"
+          class="header__image"
+        />
+      </div>
+      <button
+        id="backButton"
+        class="button button__yellow"
+        onclick="window.location.href='http://localhost:3000/index.html';"
+      >
+        Retour à l'accueil
+      </button>
+      <p class="paragraph">
+        Cette série de mini-jeux a été développée en HTML/SCSS/Javascript. Son
+        seul but est de divertir, donc amusez-vous bien !
+      </p>
+    </header>
+    <div></div>
+    <main>
+      <h1 class="game_title">Mastermind</h1>
+      <h2>Seras-tu assez malin pour trouver la bonne combinaison ?</h2>
+      <div class="coverImage" id="coverImage">
+        <img src="assets/img/pions.jpg" alt="pions mastermind" />
+      </div>
+      <div>
+        <button id="startButton" class="button button__green">
+          LANCER LA PARTIE
+        </button>
+      </div>
+      <div class="allSelect" id="allSelect"></div>
+    </main>
+    <div></div>
+    <script type="module" src="mastermind.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
