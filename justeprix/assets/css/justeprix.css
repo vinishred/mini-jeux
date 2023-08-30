@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+.title {
+  color: rgb(23, 30, 222);
+}
+
+.header__image {
+  position: absolute;
+  width: 100px;
+  top: 1rem;
+  right: 1rem;
+}
+
+.paragraph {
+  color: black;
+}
+
+.button {
+  border-radius: 4px;
+  height: 2rem;
+  width: auto;
+}
+.button.button__green {
+  background-color: #2e871a;
+  color: white;
+  transition: 1s;
+}
+.button.button__green:hover {
+  box-shadow: inset 0rem 5rem #33e70a;
+  color: black;
+}
+.button.button__yellow {
+  background-color: rgb(223, 12, 8);
+  color: white;
+  transition: 1s;
+}
+.button.button__yellow:hover {
+  box-shadow: inset 0rem 5rem rgb(255, 235, 13);
+  color: black;
+}
+
+#confetti {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.reverseCountDiv {
+  transition: 0.2s;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  border-radius: 100%;
+  padding: 1rem;
+}
+.reverseCountDiv.reverseCountDiv.cool {
+  background-color: green;
+}
+.reverseCountDiv.reverseCountDiv.warning {
+  background-color: orange;
+}
+.reverseCountDiv.reverseCountDiv.danger {
+  background-color: red;
+  animation: suspens 1s infinite;
+}
+
+#gamePropalDiv {
+  display: none;
+}
+
+@keyframes suspens {
+  0%, 100% {
+    transform: rotate(0deg);
+    font-size: 15px;
+  }
+  25% {
+    transform: rotate(-45deg);
+    font-size: 18px;
+  }
+  50% {
+    transform: rotate(0deg);
+    font-size: 20px;
+  }
+  75% {
+    transform: rotate(45deg);
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=justeprix.css.map */
