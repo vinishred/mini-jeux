@@ -1,0 +1,81 @@
+* {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(45deg, blue, red);
+  width: 100%;
+  height: 100vh;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+h1,
+h2,
+h3 {
+  color: yellow;
+  margin: 1rem;
+  text-align: center;
+}
+
+.audioButton {
+  color: yellowgreen;
+  width: 5rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.picto {
+  text-align: center;
+}
+
+.logo {
+  border-radius: 5px;
+  width: 40px;
+}
+
+li {
+  color: yellow;
+  font-size: 15px;
+}
+
+.header__image {
+  display: block;
+  margin: auto;
+  width: 18rem;
+}
+
+a {
+  color: yellow;
+  font-size: 15px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.fighter {
+  background-image: url("../img/sprite.png");
+  height: 69px;
+  width: 100%;
+  animation-name: moove;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(10);
+}
+
+@keyframes moove {
+  from {
+    background-position: -10px 0;
+  }
+  to {
+    background-position: -378px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
