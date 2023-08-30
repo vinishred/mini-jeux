@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacman</title>
+    <link rel="stylesheet" href="/Pacman/assets/css/Pacman.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div>
+        <h1 class="title">Mini-Jeux</h1>
+        <img
+          src="../assets/img/game.jpg"
+          alt="illustration de jeu"
+          class="header__image"
+        />
+      </div>
+      <button
+        id="backButton"
+        class="button button__yellow"
+        onclick="window.location.href='http://localhost:3000/index.html';"
+      >
+        Retour à l'accueil
+      </button>
+      <p class="paragraph">
+        Cette série de mini-jeux a été développée en HTML/SCSS/Javascript. Son
+        seul but est de divertir, donc amusez-vous bien !
+      </p>
+    </header>
+    <h1>Pacman</h1>
+    <button class="buttonStart" id="buttonStart">Démarrer la partie</button>
+    <div>
+      <img
+        src="assets/img/pac-man-jeu-video.jpg"
+        alt="Pacman game illustration"
+        class="mainImage"
+        id="mainImage"
+      />
+    </div>
+    <div class="gameBox" id="gameBox">
+      <div id="game" class="game"></div>
+      <div id="endScreen" class="endScreen">
+        <h2>PERDU !!</h2>
+        <h2>ton score est de</h2>
+        <h2 id="score">0</h2>
+        <button id="play" class="playButton">Rejouer</button>
+      </div>
+      <div id="victory" class="victoryScreen">
+        <h2>
+          Bravo tu as gagné<br />
+          Quel champion !!
+        </h2>
+        <img src="assets/img/victory.jpg" alt="image de victoire pacman" />
+        <button id="play" class="playButton">Rejouer</button>
+      </div>
+    </div>
+    <div id="reverseCount" class="reverseCount"></div>
+    <script type="module" src="Pacman.js"></script>
+  </body>
+</html>
