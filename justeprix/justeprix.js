@@ -11,8 +11,8 @@ const titleDiv = document.querySelector(".title-div");
 const paragraphDiv = document.querySelector(".paragraph");
 const resultDiv = document.getElementById("resultDiv");
 const imagejavascript = document.createElement("img");
-imagejavascript.src = "/justeprix/assets/img/bravo.jpg";
-let audioStart = new Audio("/justeprix/assets/audio/generique.mp3");
+imagejavascript.src = "assets/img/bravo.jpg";
+let audioStart = new Audio("assets/audio/generique.mp3");
 audioStart.volume = 0.1;
 const reverseCountDiv = document.getElementById("reverseCount");
 let restTime = 0;
@@ -48,18 +48,18 @@ function checkPropal() {
     //on veut afficher c'est plus sur notre écran
     resultDiv.innerHTML = "c'est plus";
     //on veut aussi aujouter un son en cas d'erreur
-    let audioMore = new Audio("/justeprix/assets/audio/wrong.wav");
+    let audioMore = new Audio("assets/audio/wrong.wav");
     audioMore.play();
   } else if (numberToFind < numberPropal) {
     resultDiv.innerHTML = "c'est moins";
-    let audioLess = new Audio("/justeprix/assets/audio/pet.wav");
+    let audioLess = new Audio("assets/audio/pet.wav");
     audioLess.play();
   } else if (numberToFind == numberPropal) {
     victory();
     launchAnimationConfetti();
   } else {
     resultDiv.innerHTML = "tu dois saisir un chiffre compris entre 0 et 1000";
-    let audioFart = new Audio("/justeprix/assets/audio/pet.wav");
+    let audioFart = new Audio("assets/audio/pet.wav");
     audioFart.play();
   }
   userPropalDiv.value = "";
