@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(blue, yellow);
+  text-align: center;
+}
+
+.game {
+  font-family: "Handjet", cursive;
+  margin: 2rem;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.title {
+  color: rgb(219, 84, 11);
+  font-size: 40px;
+}
+
+.header__image {
+  position: absolute;
+  width: 100px;
+  top: 1rem;
+  right: 1rem;
+}
+
+.paragraph {
+  color: black;
+  font-size: 20px;
+}
+
+.button {
+  border-radius: 4px;
+  height: 2rem;
+  width: auto;
+}
+.button.button__green {
+  background-color: #2e871a;
+  color: white;
+  transition: 1s;
+}
+.button.button__green:hover {
+  box-shadow: inset 0rem 5rem #33e70a;
+  color: black;
+}
+.button.button__yellow {
+  background-color: rgb(223, 12, 8);
+  color: white;
+  transition: 1s;
+}
+.button.button__yellow:hover {
+  box-shadow: inset 0rem 5rem rgb(255, 235, 13);
+  color: black;
+}
+
+.blackboard_image {
+  width: 18rem;
+}
+
+.figure_image {
+  width: 5rem;
+}
+
+.left_side {
+  flex-basis: 30%;
+}
+
+.middle {
+  flex-basis: 40%;
+  height: 33rem;
+}
+
+.right_side {
+  flex-basis: 30%;
+}/*# sourceMappingURL=calculator.css.map */
