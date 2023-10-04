@@ -3,7 +3,7 @@
  * déroulement d'un tour:
  * générer des cartes aléatoirement
  * laisser les cartes visibles pendant 5 secondes
- * laisser 3 secondes au joueur pour choisir une carte
+ * laisser 5 secondes au joueur pour choisir une carte
  * si gagné recommencer le tour
  * si perdu fin de la partie
  */
@@ -31,11 +31,11 @@ let nbCardsParam = 2;
 let restTime = 0;
 
 startButtonDiv.addEventListener("click", () => {
-  mainAudio.play();
   launchGame();
 });
 
 function launchGame() {
+  mainAudio.play();
   plateau.innerHTML = "";
   reverseCountDiv.style.display = "block";
   clearInterval(counterInterval);
