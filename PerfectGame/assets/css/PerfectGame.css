@@ -74,7 +74,7 @@ main {
 }
 
 .perso {
-  background: url(/PerfectGame/assets/img/sprites.png);
+  background: url(../img/sprites.png);
   border-radius: 5px;
   height: 70px;
   margin: 1rem;
@@ -87,14 +87,14 @@ main {
   width: 70px;
 }
 .elementToFind.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 
 .perso.perso0 {
   background-position: 0px 0px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -107,7 +107,7 @@ main {
   background-position: 83.4px 76px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -120,7 +120,7 @@ main {
   background-position: 166.8px 76px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -133,7 +133,7 @@ main {
   background-position: 250.2px 76px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -146,7 +146,7 @@ main {
   background-position: 333.6px 76px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -159,7 +159,7 @@ main {
   background-position: 417px 76px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -172,7 +172,7 @@ main {
   background-position: 500.4px 76px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -185,7 +185,7 @@ main {
   background-position: 583.8px 152px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -198,7 +198,7 @@ main {
   background-position: 667.2px 152px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -211,7 +211,7 @@ main {
   background-position: 750.6px 152px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -224,7 +224,7 @@ main {
   background-position: 834px 152px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -237,7 +237,7 @@ main {
   background-position: 917.4px 152px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -250,7 +250,7 @@ main {
   background-position: 1000.8px 152px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -263,7 +263,7 @@ main {
   background-position: 1084.2px 228px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -276,7 +276,7 @@ main {
   background-position: 1167.6px 228px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -289,7 +289,7 @@ main {
   background-position: 1251px 228px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -302,7 +302,7 @@ main {
   background-position: 1334.4px 228px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -315,7 +315,7 @@ main {
   background-position: 1417.8px 228px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -328,7 +328,7 @@ main {
   background-position: 1501.2px 228px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -341,7 +341,7 @@ main {
   background-position: 1584.6px 304px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -354,7 +354,7 @@ main {
   background-position: 1668px 304px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -367,7 +367,7 @@ main {
   background-position: 1751.4px 304px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -380,7 +380,7 @@ main {
   background-position: 1834.8px 304px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -393,7 +393,7 @@ main {
   background-position: 1918.2px 304px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
@@ -406,7 +406,7 @@ main {
   background-position: 2001.6px 304px;
 }
 .perso.reverseCard {
-  background: url(/PerfectGame/assets/img/cartemini.png);
+  background: url(../img/cartemini.png);
 }
 .perso.reverseCard:hover {
   border: 2px solid yellow;
