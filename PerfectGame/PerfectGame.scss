@@ -77,7 +77,7 @@ main {
 }
 
 .perso {
-  background: url("https://github.com/vinishred/mini-jeux/blob/main/PerfectGame/assets/img/sprites.png");
+  background: url(../img/sprites.png);
   border-radius: 5px;
   height: 70px;
   margin: 1rem;
@@ -90,7 +90,7 @@ main {
   width: 70px;
 
   &.reverseCard {
-    background: url("https://github.com/vinishred/mini-jeux/blob/main/PerfectGame/assets/img/cartemini.png");
+    background: url(../img/cartemini.png);
   }
 }
 
@@ -102,7 +102,7 @@ main {
       background-position: $decalH $decalV;
     }
     &.reverseCard {
-      background: url("https://github.com/vinishred/mini-jeux/blob/main/PerfectGame/assets/img/cartemini.png");
+      background: url(../img/cartemini.png);
 
       &:hover {
         border: 2px solid yellow;
