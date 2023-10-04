@@ -77,7 +77,7 @@ main {
 }
 
 .perso {
-  background-image: url("../img/sprites.png");
+  background: url(/PerfectGame/assets/img/sprites.png);
   border-radius: 5px;
   height: 70px;
   margin: 1rem;
@@ -90,7 +90,7 @@ main {
   width: 70px;
 
   &.reverseCard {
-    background-image: url("../img/cartemini.png");
+    background: url(/PerfectGame/assets/img/cartemini.png);
   }
 }
 
@@ -102,7 +102,7 @@ main {
       background-position: $decalH $decalV;
     }
     &.reverseCard {
-      background-image: url("../img/cartemini.png");
+      background: url(/PerfectGame/assets/img/cartemini.png);
 
       &:hover {
         border: 2px solid yellow;
