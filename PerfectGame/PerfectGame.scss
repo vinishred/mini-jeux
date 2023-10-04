@@ -77,7 +77,7 @@ main {
 }
 
 .perso {
-  background: url(assets/img/cartemini.png);
+  background: url("assets/img/sprites.png");
   border-radius: 5px;
   height: 70px;
   margin: 1rem;
@@ -90,7 +90,7 @@ main {
   width: 70px;
 
   &.reverseCard {
-    background: url(assets/img/cartemini.png);
+    background: url("assets/img/cartemini.png");
   }
 }
 
@@ -102,7 +102,7 @@ main {
       background-position: $decalH $decalV;
     }
     &.reverseCard {
-      background: url(assets/img/cartemini.png);
+      background: url("assets/img/cartemini.png");
 
       &:hover {
         border: 2px solid yellow;
